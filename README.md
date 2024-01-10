@@ -5,7 +5,7 @@ For the whole demonstration will be downloading all the packages in the environm
 
 ### Environment Used in Demonstration
 
- - Server - DGXA100
+ - Server - NVIDIA DGXA100
 
  - OS - DGX OS 6.1 (Ubuntu 22.04)
 
@@ -16,7 +16,7 @@ For the whole demonstration will be downloading all the packages in the environm
  - NVIDIA Driver Version - 535.5
 
 
-All those who will be using a virtual machine on the cloud or a normal bare metal server, can ignore the GPU part.
+All those who will be using a virtual machine on the cloud or a normal bare metal server can ignore the GPU part.
 
 ### Step1 : Installing Docker
 
