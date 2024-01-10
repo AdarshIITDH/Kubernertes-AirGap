@@ -30,7 +30,7 @@ We will be downloading all the binaries first like below or just use the docker.
 or 
 
 ```
-git clone https://github.com/AdarshIITDH/Kubernertes-AirGap.git
+git clone https://github.com/AdarshIITDH/Kubernetes-AirGap.git
 cd Kubernetes-AirGap
 bash docker.sh
 ```
