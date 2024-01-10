@@ -31,5 +31,6 @@ or
 
 ```
 git clone https://github.com/AdarshIITDH/Kubernertes-AirGap.git
-
+cd Kubernetes-AirGap
+bash docker.sh
 ```
