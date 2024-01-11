@@ -55,8 +55,6 @@ cd Kubernetes-AirGap
 bash kubernetes_binaries.sh
 ```
 
-
-
 ### Step3 : Kubernetes other components (images)
 
 ```
@@ -96,4 +94,14 @@ for image in "${images[@]}"; do
     docker save -o "${image_name}.tar" "$image"
 
 done
+```
+### Step4 : Other Remaining Dependies
+
+```
+echo -e "\nDownload dependencies"
+curl -O "https://dl.fedoraproject.org/pub/fedora/linux/releases/37/Everything/${ARCH}/os/Packages/s/socat-1.7.4.2-3.fc37.${ARCH}.rpm"
+curl -O "https://dl.fedoraproject.org/pub/fedora/linux/releases/37/Everything/${ARCH}/os/Packages/l/libcgroup-3.0-1.fc37.${ARCH}.rpm"
+curl -O "https://dl.fedoraproject.org/pub/fedora/linux/releases/37/Everything/${ARCH}/os/Packages/c/conntrack-tools-1.4.6-4.fc37.${ARCH}.rpm"
+curl -LO "https://github.com/derailed/k9s/releases/download/${K9S_VERSION}/k9s_Linux_${K8s_ARCH}.tar.gz"
+curl -LO "https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml"
 ```
