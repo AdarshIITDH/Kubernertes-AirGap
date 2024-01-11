@@ -18,7 +18,8 @@ For the whole demonstration will be downloading all the packages in the environm
 
 All those who will be using a virtual machine on the cloud or a normal bare metal server can ignore the GPU part.
 
-### Step1 : Installing Docker
+## Download all the artifacts
+### Step1 : Docker Binaries
 
 We will be downloading all the binaries first like below or just use the docker.sh script.
 
@@ -37,7 +38,7 @@ cd Kubernetes-AirGap
 bash docker.sh
 ```
 
-### Step2 : Downloading Kubernetes components
+### Step2 : Downloading Kubernetes components (images)
 
 ```
 #!/bin/bash
