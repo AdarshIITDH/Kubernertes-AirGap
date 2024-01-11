@@ -9,11 +9,11 @@ For the whole demonstration will be downloading all the packages in the environm
 
  - OS - DGX OS 6.1 (Ubuntu 22.04)
 
- - CUDA - 12.2
+ - CUDA - 12.2 (optional)
 
  - Docker - 23.04
 
- - NVIDIA Driver Version - 535.5
+ - NVIDIA Driver Version - 535.5 (optional)
 
 
 All those who will be using a virtual machine on the cloud or a normal bare metal server can ignore the GPU part.
