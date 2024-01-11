@@ -57,7 +57,7 @@ bash kubernetes_binaries.sh
 
 
 
-### Step3 : Downloading Kubernetes components (images)
+### Step3 : Kubernetes other components (images)
 
 ```
 #!/bin/bash
