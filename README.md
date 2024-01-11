@@ -21,7 +21,7 @@ All those who will be using a virtual machine on the cloud or a normal bare meta
 ## Download all the artifacts
 ### Step1 : Docker Binaries
 
-We will be downloading all the binaries first like below or just use the docker.sh script.
+We will be downloading all the binaries first like below or just use the docker_binaries.sh script.
 
 ```
 curl -O https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_23.0.2-1~ubuntu.22.04~jammy_amd64.deb
@@ -35,7 +35,7 @@ or
 ```
 git clone https://github.com/AdarshIITDH/Kubernetes-AirGap.git
 cd Kubernetes-AirGap
-bash docker.sh
+bash docker_binaries.sh
 ```
 ### Step2 : Kubernetes Binaries
 
@@ -47,6 +47,12 @@ curl -L --remote-name-all https://dl.k8s.io/release/${KUBE_RELEASE}/bin/linux/${
 curl -L -O "https://raw.githubusercontent.com/kubernetes/release/${RELEASE_VERSION}/cmd/kubepkg/templates/latest/deb/kubelet/lib/systemd/system/kubelet.service"
 curl -L -O "https://raw.githubusercontent.com/kubernetes/release/${RELEASE_VERSION}/cmd/kubepkg/templates/latest/deb/kubeadm/10-kubeadm.conf"
 curl -L -O "https://dl.k8s.io/release/${KUBE_RELEASE}/bin/linux/${K8s_ARCH}/kubectl"
+```
+or 
+```
+git clone https://github.com/AdarshIITDH/Kubernetes-AirGap.git
+cd Kubernetes-AirGap
+bash kubernetes_binaries.sh
 ```
 
 
